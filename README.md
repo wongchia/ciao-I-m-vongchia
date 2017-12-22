@@ -1,5 +1,4 @@
-# ciao-I'm vongchia
-www.vongchia.club
+# www.vongchia.club
 
 设计过程
 
