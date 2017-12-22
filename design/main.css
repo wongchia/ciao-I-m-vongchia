@@ -1,0 +1,127 @@
+body {
+	font-size: 1em;
+	font-family: 'proxima-nova-alt', 'Helvetica Neue', Arial, sans-serif;
+	line-height: 1.2em;
+	margin: 0;
+	padding: 0;
+	background-color: #0a0a0a;
+	width: auto;
+	height: auto;
+	overflow-x: hidden;
+}
+
+p {
+	margin: 0px 0px 10px 0px;
+}
+
+.container {
+   	position:absolute;
+	background-color: #0a0a0a;
+   	z-index:0;
+   	left:0;
+   	top:0;
+   	width:100%;
+   	height:100%; 
+	-webkit-background-size: cover;
+    background-size: cover;
+	background-position: right;
+}
+
+.bigImage {
+	width: 100%;
+	height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position:absolute;
+    background-position: center;
+}
+
+.name a{
+	font-family: 'museo slab', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+    opacity: 0.20;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    text-align: left;
+    text-decoration:none;
+}
+
+@media all and (max-width:600px){ .name {
+    text-align: center;}
+}
+
+
+.content_top {
+	width:300px;
+	position: absolute;
+	top: 1%;
+	left: 12%;
+	left: calc(50% - 170px);
+	left: -moz-calc(50% - 170px);
+	left: -webkit-calc(50% - 170px);
+	padding: 30px 25px 25px;
+}
+
+.content {
+	width: 300px;
+	position: absolute;
+	top: 30%;
+	left: 12%;
+	left: calc(50% - 170px);
+	left: -moz-calc(50% - 170px);
+	left: -webkit-calc(50% - 170px);
+	padding: 30px 25px 25px;
+}
+
+@media all and (min-width:600px){  
+.content {
+	left: 1%;}	
+}
+
+@media all and (min-width:600px){  
+.content_top {
+	left: 1%;}	
+}
+
+.list {
+	margin: 25px auto 0px;
+	color: #333; 
+	list-style-type: none;
+	padding: 0px;
+	text-align: left;
+}
+
+@media all and (max-width:600px){ .list {
+    text-align: center;}
+}
+
+
+.list li {
+ 	margin: 8px 0px;
+ 	font-family: 'museo slab', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 500;
+	text-decoration: none;
+	font-size: 0.75em;
+	letter-spacing: 1px;
+}
+
+
+.list a {
+	text-decoration: none;
+}
+
+.list a:hover, .list a:active {
+	opacity: 0.95;
+	font-size: 18px;
+}
+
+.links a {
+	text-transform: none;
+	font-weight: 400;
+    color: #ffffff;
+    opacity: 0.6;
+	font-size: 18px;
+	letter-spacing: 4px;
+}

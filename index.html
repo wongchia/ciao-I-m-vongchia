@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93169020-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<meta name="google-site-verification" content="dV0kHUjI0iGFKWlVdvUsOmyQJ-7ebEwSDuWb6kTGsiI" />
+<link rel="stylesheet" type="text/css" href="design/main.css">
+<meta name="keywords" content="vongchia,chia,王嘉">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=0,"charset='utf-8'>    
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<title>ciao~I'm chia</title>
+<script src="js/jquery-1.11.1.min.js"></script>
+
+</head> 
+<body>
+    <div class="container" id="bigImage">
+    <div class="bigImage" >
+        <div class="content_top">
+          <div class="name">
+          <a>Vong Chia
+          </a>
+          </div>
+        </div>
+          
+      <div class="content">
+        <ul class="list links" id="linkUl">
+          <li id="0" onmouseover="changeImg(0,1)" onmouseout="changeImg(7,0)">
+            <a href="https://zhuanlan.zhihu.com/thoues"  target="_blank">关于产品的思考</a>
+          </li>
+          <li id="1" onmouseover="changeImg(1,1)" onmouseout="changeImg(7,0)">
+            <a href="https://zhuanlan.zhihu.com/stellas/"  target="_blank">思维模式整理</a>
+          </li>
+          <li id="2" onmouseover="changeImg(2,1)" onmouseout="changeImg(7,0)">
+            <a href="https://www.behance.net/vongchia"  target="_blank">交互视觉设计</a>
+          </li>
+          <li id="3" onmouseover="changeImg(3,1)" onmouseout="changeImg(7,0)">
+            <a href="http://www.lizhi.fm/1805839/"  target="_blank">404Club播客</a>
+          </li>
+          <li id="4" onmouseover="changeImg(4,1)" onmouseout="changeImg(7,0)">
+            <a href="https://vongchia.tumblr.com"  target="_blank">日常梦境涂鸦</a>
+          </li>
+          <li id="5" onmouseover="changeImg(5,1)" onmouseout="changeImg(7,0)">
+            <a href="https://www.instagram.com/vongchia/"  target="_blank">生活中的抓拍</a>
+          </li>
+          <li id="6" onmouseover="changeImg(6,1)" onmouseout="changeImg(7,0)">
+            <a href="https://soundcloud.com/westmoongirl"  target="_blank">声音碎片采集</a>
+          </li>
+          <li>
+            <a href="mailto:vongchia@gmail.com">Get in Touch</a>
+          </li>
+        </ul>
+          
+      </div>
+		</div>
+    <div style="top: 50%; left: 50%; position: absolute; width: 500; height: 600px;">
+      <div class=""></div>
+    </div>
+        
+    </div>
+
+<script>
+var imgs = new Array();
+imgs[0] = "images/1.svg";
+imgs[1] = "images/2.svg";
+imgs[2] = "images/7.svg";
+imgs[3] = "images/3.svg";
+imgs[4] = "images/4.svg";
+imgs[5] = "images/5.svg";
+imgs[6] = "images/6.svg";
+
+function changeImg(num,type){
+	if(type == 1){
+		$("#bigImage").css("background-image","url("+imgs[num]+")");
+	} else {
+		$("#bigImage").css("background-image","");
+	}
+}
+</script>
+
+</body>
+</html>
+
